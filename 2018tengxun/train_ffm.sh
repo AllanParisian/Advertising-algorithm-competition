@@ -1,6 +1,6 @@
-cd data/tmp
+cd#data/tmp
 
-# ./ffm-train -r 0.12 -t 5 -s 4 -l 0.0000002 --no-rand --on-disk train1.txt model
+##./ffm-train -r 0.12 -t 5 -s 4 -l 0.0000002 --no-rand --on-disk train1.txt model
 
 # ./ffm-predict test1.txt model ../../sub/res1.csv
 
@@ -88,3 +88,4 @@ rm -f train11.txt.bin
 rm -f train12.txt.bin
 
 
+ 
